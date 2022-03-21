@@ -18,16 +18,13 @@ function App() {
   useEffect(() => {
     const arr: IBar[] = []
 
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 50; i++) {
       arr.push({ number: i })
     }
 
     shuffle(arr)
     updateNumbersList(arr)
   }, [])
-
-  const delayLoop = (ms: number) =>
-    new Promise((resolve) => setTimeout(resolve, ms))
 
   return (
     <div className="App">
@@ -42,25 +39,7 @@ function App() {
 
         <button
           className="sort-btn"
-          onClick={async () => {
-            for (let step = 0; step < numbersList.length - 1; step++) {
-              for (let i = 0; i < numbersList.length - 1 - step; i++) {
-                updateNumbersList((prevState) => {
-                  const newArr = [...prevState]
-
-                  if (newArr[i].number > newArr[i + 1].number) {
-                    const tmp = newArr[i]
-
-                    newArr[i] = newArr[i + 1]
-                    newArr[i + 1] = tmp
-                  }
-
-                  return newArr
-                })
-                await delayLoop(5)
-              }
-            }
-          }}
+          onClick={() => bubbleSort(updateNumbersList, numbersList)}
         >
           Sort
         </button>
