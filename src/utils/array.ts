@@ -1,6 +1,4 @@
-import { IBar } from "../App"
-
-export const shuffle = (array: IBar[]) => {
+export const shuffle = (array: Array<any>) => {
   let currentIndex = array.length,
     randomIndex
 
