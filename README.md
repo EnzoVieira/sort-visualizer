@@ -1,46 +1,146 @@
-# Getting Started with Create React App
+<div align="center" id="top">
+  <h3 align="center">Sort Visualizer</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    Small project implementing sorting algorithms in JavaScript.
+  </p>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
 
-### `npm start`
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- PROJECT GIF -->
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/bubbleSort.gif" alt="Logo">
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <h3 align="center">Sort Visualizer</h3>
 
-### `npm test`
+  <p align="center">
+    Sort visualizer project implemented with ReactJS and TypeScript
+  </p>
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I created this small project to put in practice my knowledge about sorting algorithms and Frontend development
 
-### `npm run build`
+The algorithms are:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Bubble Sort](https://www.programiz.com/dsa/bubble-sort)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- [ReactJS](https://reactjs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To test the project is simple.
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone https://github.com/EnzoVieira/sort-visualizer.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+   or use yarn
+   ```sh
+   yarn
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- ROADMAP -->
+
+## Roadmap
+
+- [x] Add Bubble Sort Algorithm.
+- [ ] Add Insertion Sort Algorithm.
+- [ ] Create a Header
+  - [ ] Button to generate a new array
+  - [ ] Select other options (delay, number of bars...)
+  - [ ] Select the algorithm that will be used
+- [ ] Implement a Binary Search algorithm.
+
+See the [open issues](https://github.com/EnzoVieira/sort-visualizer/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+### Feel free to contribute with my project!
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star ⭐️! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+6. If your Pull Request resolves some issue, refer the issue on the subject with a # and the number of the issue, like: `[SUBJECT] #123`
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+<!-- CONTACT -->
+
+## Contact
+
+### Enzo Vieira
+
+Instagram: [@enzogabriel16](https://www.instagram.com/enzogabriel16/)
+
+Email: enzovieira16@hotmail.com
+
+Project Link: [https://github.com/EnzoVieira/sort-visualizer](https://github.com/EnzoVieira/sort-visualizer)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- [Conventional Commits](https://gist.github.com/julienbourdeau/e605e4b8b47da97c249a0f72598529c8)
+- [Commit Message Convention](https://gist.github.com/julienbourdeau/e605e4b8b47da97c249a0f72598529c8)
+- [Bubble Sort](https://www.programiz.com/dsa/bubble-sort)
+- [Insertion Sort](https://www.programiz.com/dsa/insertion-sort)
+- [Binary Search](https://www.programiz.com/dsa/binary-search)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
