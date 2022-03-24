@@ -34,9 +34,10 @@
 ## About The Project
 
 <!-- PROJECT GIF -->
-<div align="center">
-  <img src="images/bubbleSort.gif" alt="Logo">
 
+![alt text](images/BubbleSort.gif)
+
+<div align="center">
   <h3 align="center">Sort Visualizer</h3>
 
   <p align="center">
