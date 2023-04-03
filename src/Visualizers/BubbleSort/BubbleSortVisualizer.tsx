@@ -1,9 +1,4 @@
-import { useEffect, useState } from "react"
 import "./BubbleSortVisualizer.css"
-
-// Utils
-import { shuffle } from "../../utils/array"
-import { randomIntFrom } from "../../utils/helper"
 
 // Algorithms
 import { bubbleSort } from "../../algorithms/bubbleSort"
@@ -16,27 +11,17 @@ export interface IBubbleBar {
 }
 
 interface IProps {
-  numOfBars: number
   delay: number
+  numbersList: IBubbleBar[]
+
+  updateNumbersList: React.Dispatch<React.SetStateAction<IBubbleBar[]>>
 }
 
-export const BubbleSortVisualizer = ({ numOfBars, delay }: IProps) => {
-  const [numbersList, updateNumbersList] = useState<IBubbleBar[]>([])
-
-  useEffect(() => {
-    const arr: IBubbleBar[] = []
-
-    for (let i = 1; i <= numOfBars; i++) {
-      arr.push({
-        number: randomIntFrom(10, 100),
-        isCurrent: false,
-      })
-    }
-
-    shuffle(arr)
-    updateNumbersList(arr)
-  }, [numOfBars])
-
+export const BubbleSortVisualizer = ({
+  numbersList,
+  updateNumbersList,
+  delay,
+}: IProps) => {
   return (
     <>
       <div className="bars-container">

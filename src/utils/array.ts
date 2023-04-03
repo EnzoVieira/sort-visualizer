@@ -17,3 +17,9 @@ export const shuffle = (array: Array<any>) => {
 
   return array
 }
+
+export const findAndRemove = (array: any[], index: number) => {
+  const findedIndex = array.findIndex((_, i) => i === index)
+
+  array.splice(findedIndex, 1)
+}
