@@ -35,7 +35,7 @@
 
 <!-- PROJECT GIF -->
 
-![alt text](images/BubbleSort.gif)
+https://user-images.githubusercontent.com/73349819/229627271-a17eb14b-9c35-42e1-af7f-e46038bb1705.mov
 
 <div align="center">
   <h3 align="center">Sort Visualizer</h3>
